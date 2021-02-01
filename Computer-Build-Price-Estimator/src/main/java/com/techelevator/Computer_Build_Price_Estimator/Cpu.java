@@ -9,9 +9,9 @@ public class Cpu extends ComputerComponent{
 	}
 
 	@Override
-	public String getType() {
+	public String getType() { 
 		return type;
-	}
+	} 
 
 	@Override
 	public double getPrice() {

@@ -19,7 +19,7 @@ public class CpuTest {
 	@Test
 	public void getPrice_returns_correctPrice_for_tier2() {
 		//Arrange
-		Cpu cpu = new Cpu("2");
+		Cpu cpu = new Cpu("2"); 
 		
 		//Act
 		double price = cpu.getPrice();
@@ -39,5 +39,15 @@ public class CpuTest {
 		//Assert
 		Assert.assertEquals(300, price, .2);
 	}
+	
+	@Test
+	public void getType_returns_correct_type() {
+		//Arrange
+		Cpu cpu = new Cpu("2");
+		//Act
+		String actual = cpu.getType();
+		//Assert
+		Assert.assertEquals("CPU", actual);
+	}	
 
 }
