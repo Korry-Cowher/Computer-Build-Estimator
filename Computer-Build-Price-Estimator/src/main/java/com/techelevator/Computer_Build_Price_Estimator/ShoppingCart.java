@@ -21,8 +21,8 @@ public class ShoppingCart {
 	public String getReceipt(List<ComputerComponent> receiptList) {
 		String printReceipt = "";
 		for(ComputerComponent item : receiptList) {
-			printReceipt+= item.getType() + " : " + item.getPrice(item.getTier()) + "\n";	
-		} printReceipt = printReceipt + "Total : " + getFinalPrice();
+			printReceipt+= item.getType() + " : $" + item.getPrice(item.getTier()) + "\n";	
+		} printReceipt = printReceipt + "Total : $" + getFinalPrice();
 		return printReceipt;
 	}
 

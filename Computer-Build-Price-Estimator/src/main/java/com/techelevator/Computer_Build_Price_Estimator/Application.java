@@ -8,7 +8,7 @@ public class Application {
 
 		Scanner keyboardInput = new Scanner(System.in);
 
-		System.out.println("Welcome to PLACEHOLDER Computer build estimator!"
+		System.out.println("Welcome to DK's Computer Build Price Estimator!"
 				+ "\n************************************************\n\n" + "You will be given a choice of tier 1 "
 				+ "to tier 3\n");
 

@@ -29,6 +29,6 @@ public class Gpu extends ComputerComponent {
 
 	@Override
 	public String getOptions() {
-		return "\nGPU\n\n[1]Tier 1: " + getBasePrice() + "\n[2]Tier 2: " + getPrice(2) + "\n[3]Tier 3: " + getPrice(3); 
+		return "\nGPU\n\n[1]Tier 1: $" + getBasePrice() + "\n[2]Tier 2: $" + getPrice(2) + "\n[3]Tier 3: $" + getPrice(3); 
 	}
 }
