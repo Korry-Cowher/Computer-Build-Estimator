@@ -11,9 +11,15 @@ public abstract class ComputerComponent {
 		return this.tier;
 	}
 	
+	public void setTier(String tier ) {
+		this.tier = Integer.parseInt(tier);
+	}
+	
 	public abstract String getType();
 	
-	public abstract double getPrice();
+	public abstract double getPrice(int tier);
+	
+	public abstract String getOptions();
 	
 	//public long getPrice(long baseCost , String tier) { 
 	//	long multiplier = 1;

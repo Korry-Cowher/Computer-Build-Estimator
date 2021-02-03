@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class CpuTest {
 	
-	@Test
+/*	@Test
 	public void getPrice_returns_basePrice_for_tier1() {
 		//Arrange
 		Cpu cpu = new Cpu("1");
@@ -48,6 +48,7 @@ public class CpuTest {
 		String actual = cpu.getType();
 		//Assert
 		Assert.assertEquals("CPU", actual);
-	}	
+	*/}	
 
-}
+//}
+//}
